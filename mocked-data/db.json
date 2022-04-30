@@ -1,0 +1,29 @@
+{
+  "hero-images": [
+    {
+      "id": "hr1",
+      "url": "https://live.staticflickr.com/1821/29386105318_8da6b4e702_k.jpg",
+      "name": "Snail",
+      "galleryLink": "blah"
+    },
+    {
+      "id": "hr2",
+      "url": "https://live.staticflickr.com/1820/28105219647_8ba1e3795b_k.jpg",
+      "name": "Belgian Blue",
+      "galleryLink": "blah"
+    },
+    {
+      "id": "hr3",
+      "url": "https://live.staticflickr.com/1811/43171807315_536656951a_k.jpg",
+      "name": "Moment",
+      "galleryLink": "blah"
+    },
+    {
+      "id": "hr4",
+      "url": "https://live.staticflickr.com/4637/38482627085_bd65d405af_k.jpg",
+      "name": "Ćića the Great Cat",
+      "galleryLink": "blah"
+    },
+    { "id": "hr5", "url": "https://live.staticflickr.com/4857/30923158247_6329546fcd_k.jpg", "name": "Akira", "galleryLink": "blah" }
+  ]
+}

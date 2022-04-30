@@ -1,0 +1,26 @@
+@import '../variables/variables';
+.container {
+  position: relative;
+  height: $navbar-height;
+  background: $color-black;
+  //background: linear-gradient(0deg, rgba(2, 0, 36, 0) 0%, rgb(17, 60, 68) 100%);
+  color: $color-white;
+  display: flex;
+  align-items: center;
+  padding: $navbar-padding;
+  font-size: 1.2rem;
+  &::before {
+    position: absolute;
+  }
+  .list {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    .listItem {
+      text-transform: uppercase;
+      letter-spacing: 0.075rem;
+      cursor: pointer;
+    }
+  }
+}

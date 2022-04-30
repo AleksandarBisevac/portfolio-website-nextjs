@@ -1,0 +1,58 @@
+@import '../../styles/variables/variables';
+.container {
+  position: relative;
+  background-color: $color-black;
+  width: 100%;
+  height: calc(100vh - $navbar-height);
+  display: flex;
+  &::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .card {
+    background-image: url('../../public/images/camera-background-white.png');
+    background-position: center;
+    background-size: cover;
+    background-clip: padding-box;
+    background-blend-mode: overlay;
+    position: relative;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    overflow: hidden;
+    color: $color-white--100;
+    .title {
+      font-size: 4rem;
+      margin: 0;
+      display: flex;
+      align-items: flex-start;
+      text-transform: uppercase;
+      padding-left: 100px;
+      color: $color-white--100;
+      .brand {
+        margin-right: 2rem;
+        fill: $color-primary !important;
+      }
+    }
+    .button {
+      background-color: $color-primary;
+      color: $color-white;
+      padding: 0.5rem;
+      width: 100px;
+      border-radius: 100px;
+      text-transform: uppercase;
+    }
+  }
+  .slider {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+}
